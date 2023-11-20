@@ -1,0 +1,6 @@
+def replac_vowel(string)
+  Vowels = "AEIOU"
+  for i in range(len(string)):
+   if string[i] in vowels:
+    string = string[:i]
+    break
